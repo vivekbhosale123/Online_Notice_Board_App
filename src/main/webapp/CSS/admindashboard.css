@@ -1,0 +1,152 @@
+body{
+	background-image: url(pngtree-scene-with-geometrical-forms-.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	height: 90vh;
+}
+.container{
+	width: 90%;
+	margin: auto;
+}
+.row{
+	display: flex;
+	justify-content: space-between;
+}
+.text{
+	text-align: center;
+	font-size: 28px;
+	color:orangered;
+}
+h1{
+	font-size: 30px;
+	color: white;
+}
+.drop li{
+	list-style: none;
+}
+.drop:hover .droplist{
+	display: block;
+	padding: 2px;	
+	margin: 2px;
+	left: 0px;
+}
+.drop a{
+	text-decoration: none;
+	font-size: 30px;
+	color:black;
+	text-align: center;
+	letter-spacing: 2px;
+}
+.drop a:hover{
+	color:crimson;
+}
+.droplist{
+	list-style: none;
+	display: none;
+	background-color: #f2f2f2;
+	text-align: center;
+}
+.droplist li{
+	padding: 2px;
+}
+.droplist li a{
+	text-decoration:none;
+	color: black;
+}
+.droplist li a:hover{
+	color:blue;
+	letter-spacing: 1px;
+}
+
+/*AdminProfile css*/
+.v{
+    border: 2px solid;
+    width: 480px;
+    height: 400px;
+    text-align: center;
+    margin-left: 540px;
+    margin-top: 100px;
+    background-color: royalblue;
+}
+.control{
+	width: 400px;
+	text-align: center;
+	padding: 10px;
+	margin: 7px;
+	font-size: 18px;
+	background-color:silver;
+	color:black;
+}
+/*AddCategory css*/
+.controll{
+	width: 400px;
+	text-align: center;
+	padding: 10px;
+	margin: 7px;
+	font-size: 18px;
+	background-color:silver;
+	color:black;
+}
+.vv{
+    border: 2px solid;
+    width: 480px;
+    height: 250px;
+    text-align: center;
+    margin-left: 540px;
+    margin-top: 117px;
+    background-color: royalblue;
+}
+/*view css*/
+.t {
+    margin-left: 377px;
+    border: 2px solid black;
+    width: 800px;
+    background-color: royalblue;
+    color: white;
+    height: 30vh;
+    margin-top: 60px;
+}
+tr,td,th{
+	border: 2px solid black;
+	padding: 10px;
+	border-collapse: collapse;
+	text-align: center;
+}
+td a{
+	color: white;
+}
+/*search box css*/
+input.con {
+    width: 790px;
+    height: 40px;
+    margin-left: 381px;
+}
+/*add  notice board*/
+/*notice add css*/
+.control2{
+	width: 400px;
+	text-align: center;
+	padding: 10px;
+	margin: 7px;
+	font-size: 18px;
+	background-color:silver;
+	color:black;
+}
+.vb {
+    background-color:royalblue;
+    height: 310px;
+    text-align: center;
+    width: 980px;
+    margin-top: 100px;
+    margin-left: 300px;
+    padding: 30px;
+}
+select.control3 {
+    width: 425px;
+    padding: 10px;
+    margin: 7px;
+    background-color: silver;
+    text-align: center;
+    font-size: 20px;
+}

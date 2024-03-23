@@ -1,0 +1,14 @@
+/*notice add css*/
+.control{
+	width: 400px;
+	text-align: center;
+	padding: 10px;
+	margin: 7px;
+	font-size: 18px;
+	background-color:silver;
+	color:black;
+}
+table{
+	background-color: indianred;
+	height: 100px;
+}

@@ -1,0 +1,39 @@
+body{
+	background-color:cyan;
+}
+.container{
+	width:680px;
+	height: 420px;
+	top: 200px;
+	left: 400px;
+	background-color: cornflowerblue;
+	box-shadow: 10px 10px 10px #8888;
+	background-image: url(Green_School_Board_PNG_Picture.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	border: 2px solid cadetblue;
+}
+input.control {
+    width: 213px;
+    padding: 10px;
+    text-align: center;
+}
+input[type="submit"]{
+    width: 236px;
+    padding: 10px;
+    text-align: center;
+    background-color: orange;
+}
+input[type="submit"]:hover{
+	background-color: green;
+	color: white;
+}
+h1{
+	margin-top: 30px;
+}
+.row{
+	margin-left: 80px;
+	margin-top: 118px;
+}
